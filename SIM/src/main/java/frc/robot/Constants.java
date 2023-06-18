@@ -24,7 +24,7 @@ public class Constants {
   public static final double kArmReduction = 10;
   public static final double kArmMass = 5.0; // Kilograms
   public static final double kArmLength = Units.inchesToMeters(30);
-  public static final double kMinAngleRads = Units.degreesToRadians(-75);
-  public static final double kMaxAngleRads = Units.degreesToRadians(255);
+  public static final double kMinAngleRads = Units.degreesToRadians(-90);
+  public static final double kMaxAngleRads = Units.degreesToRadians(90);
   //SingleJointedArmSim değişkenleri
 }
