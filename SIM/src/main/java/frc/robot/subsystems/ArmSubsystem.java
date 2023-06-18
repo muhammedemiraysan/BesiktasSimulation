@@ -22,10 +22,11 @@ import edu.wpi.first.wpilibj.smartdashboard.MechanismRoot2d;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.util.Color;
 import edu.wpi.first.wpilibj.util.Color8Bit;
+import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import edu.wpi.first.wpilibj.AnalogPotentiometer;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonFX;
 
-public class Arm implements AutoCloseable {
+public class ArmSubsystem extends SubsystemBase implements AutoCloseable {
   // The P gain for the PID controller that drives this arm.
   private double m_armKp = Constants.kDefaultArmKp;
   private double m_armSetpointDegrees = Constants.kDefaultArmSetpointDegrees;
@@ -70,7 +71,7 @@ public class Arm implements AutoCloseable {
               new Color8Bit(Color.kYellow)));
 
   /** Subsystem constructor. */
-  public Arm() {
+  public ArmSubsystem() {
     
     m_encoder.setDistancePerPulse(Constants.kArmEncoderDistPerPulse);
     // Put Mechanism 2d to SmartDashboard
