@@ -23,8 +23,8 @@ public class RobotContainer {
                 },
                 m_robotArm));
     m_driverController
-        .a()
-        .onFalse(
+        .b()
+        .onTrue(
             Commands.runOnce(
                 () -> {
                     m_robotArm.stop();                
