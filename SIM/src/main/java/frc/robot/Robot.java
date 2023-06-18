@@ -15,13 +15,7 @@ public class Robot extends TimedRobot {
   public void robotInit() {
     m_robot.configureButtonBindings();
   }
-    
-
-  @Override
-  public void teleopInit() {
-    m_arm.loadPreferences();
-  }
-
+  
   @Override
   public void teleopPeriodic() {
     CommandScheduler.getInstance().run();
