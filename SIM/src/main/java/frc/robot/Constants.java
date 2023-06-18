@@ -17,11 +17,12 @@ public class Constants {
   public static final String kArmPKey = "ArmP";
 
   // The P gain for the PID controller that drives this arm.
-  public static final double kDefaultArmKp = 0.4;
-  public static final double kDefaultArmKi = 0.1;
-  public static final double kDefaultArmKd = 0.3;
-  public static final double kDefaultArmKf = 0.1;
-
+  public static final double kP = 0.1;
+  public static final double kI = 0.002;
+  public static final double kD = 0.01;
+  public static final double kF = 0.7;
+  public static final int kSlotIdx = 0;
+  public static final int kTimeoutMs = 10;
   public static final double kDefaultArmSetpointDegrees = 150.0;
 
   // distance per pulse = (angle per revolution) / (pulses per revolution)

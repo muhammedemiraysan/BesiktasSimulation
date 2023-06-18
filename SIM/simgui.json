@@ -10,9 +10,6 @@
         "header": {
           "open": true
         }
-      },
-      "window": {
-        "visible": true
       }
     },
     "Other Devices": {
@@ -43,6 +40,7 @@
       "/FMSInfo": "FMSInfo",
       "/LiveWindow/Ungrouped/PIDController[1]": "PIDController",
       "/LiveWindow/Ungrouped/PWMSparkMax[0]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Talon FX [1]": "Motor Controller",
       "/SmartDashboard/Arm Sim": "Mechanism2d"
     },
     "windows": {
