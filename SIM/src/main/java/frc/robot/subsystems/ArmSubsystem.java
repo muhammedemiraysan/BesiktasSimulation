@@ -92,7 +92,7 @@ public class ArmSubsystem extends SubsystemBase implements AutoCloseable {
 		_talon.config_kP(Constants.kSlotIdx, Constants.kP, Constants.kTimeoutMs);
 		_talon.config_kI(Constants.kSlotIdx, Constants.kI, Constants.kTimeoutMs);
 		_talon.config_kD(Constants.kSlotIdx, Constants.kD, Constants.kTimeoutMs);
-		_talon.configMotionCruiseVelocity(15000, Constants.kTimeoutMs);
+		_talon.configMotionCruiseVelocity(6000, Constants.kTimeoutMs);
 		_talon.configMotionAcceleration(6000, Constants.kTimeoutMs);
 		_talon.setSelectedSensorPosition(0, 0, Constants.kTimeoutMs);
     //TalonFx sürücüsünün pid simülasyonu için ayarları yapıldı.

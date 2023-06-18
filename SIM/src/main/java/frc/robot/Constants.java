@@ -8,11 +8,11 @@ public class Constants {
 
   public static final String kArmPositionKey = "ArmPosition";
   //smartDasboard için isim etiketi
-  
-  public static final double kP = 1;
-  public static final double kI = 0.0006;
-  public static final double kD = 2;
-  public static final double kF = 0.6;
+
+  public static final double kP = 1.3;
+  public static final double kI = 0.001;
+  public static final double kD = 0.8;
+  public static final double kF = 1.5;
   public static final int kSlotIdx = 0;
   public static final int kTimeoutMs = 100;
   //PID değişkenleri
