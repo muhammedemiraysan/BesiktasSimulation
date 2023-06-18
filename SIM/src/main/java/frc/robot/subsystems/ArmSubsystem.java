@@ -34,7 +34,7 @@ public class ArmSubsystem extends SubsystemBase implements AutoCloseable {
   final double kGearRatio = 1;
 
   private final WPI_TalonFX _talon = new WPI_TalonFX(1);
-  private final AnalogPotentiometer m_wristPot = new AnalogPotentiometer(1, 180);
+  private final AnalogPotentiometer m_wristPot = new AnalogPotentiometer(1, 90);
   //motor ve potansiyometre nesneleri oluşturuldu
   
   private final SingleJointedArmSim m_armSim =
