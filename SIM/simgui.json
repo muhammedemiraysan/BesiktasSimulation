@@ -46,6 +46,7 @@
   "NTProvider": {
     "types": {
       "/FMSInfo": "FMSInfo",
+      "/LiveWindow/ArmSubsystem": "Subsystem",
       "/LiveWindow/Ungrouped/PIDController[1]": "PIDController",
       "/LiveWindow/Ungrouped/PWMSparkMax[0]": "Motor Controller",
       "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
