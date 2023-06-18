@@ -22,6 +22,7 @@ public class RobotContainer {
                   m_robotArm.reachSetpoint();                
                 },
                 m_robotArm));
+    //A trigger tuşuna basıldığında pid kontrolcüsünü başlat
     m_driverController
         .b()
         .onTrue(
@@ -30,5 +31,6 @@ public class RobotContainer {
                     m_robotArm.stop();                
                   },
                   m_robotArm));
+    //B trigger tuşuna basıldığında pid kontrolcüsünü durdur
   }
 }
