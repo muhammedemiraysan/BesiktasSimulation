@@ -8,15 +8,12 @@ import edu.wpi.first.math.util.Units;
 public class Constants {
 
   public static final int kMotorPort = 0;
-  public static final int kEncoderAChannel = 0;
-  public static final int kEncoderBChannel = 1;
   public static final int kJoystickPort = 0;
 
   public static final String kArmPositionKey = "ArmPosition";
 
   public static final String kArmPKey = "ArmP";
 
-  // The P gain for the PID controller that drives this arm.
   public static final double kP = 0.1;
   public static final double kI = 0.002;
   public static final double kD = 0.01;
